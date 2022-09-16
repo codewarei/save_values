@@ -244,6 +244,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 ),
                               ),
                               TextFormField(
+                                textCapitalization: TextCapitalization.characters,
                                 controller: vinTextFieldController,
                                 onFieldSubmitted: (_) async {
                                   if (formKey.currentState == null ||
