@@ -243,6 +243,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       ),
                                 ),
                               ),
+                              //caps
                               TextFormField(
                                 textCapitalization: TextCapitalization.characters,
                                 controller: vinTextFieldController,
